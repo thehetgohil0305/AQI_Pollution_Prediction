@@ -1,0 +1,44 @@
+{
+  "mae": 16.7277,
+  "rmse": 36.5303,
+  "r2": 0.9271,
+  "baseline_mae": 85.5805,
+  "rows": 24850,
+  "train_rows": 19880,
+  "test_rows": 4970,
+  "target": "AQI",
+  "target_unit_note": "Confirm target definition and units in the source dataset.",
+  "features": [
+    "City",
+    "PM10",
+    "NO",
+    "NO2",
+    "NOx",
+    "NH3",
+    "CO",
+    "SO2",
+    "O3",
+    "Benzene",
+    "Toluene",
+    "Xylene",
+    "AQI_Bucket"
+  ],
+  "numeric_features": [
+    "PM10",
+    "NO",
+    "NO2",
+    "NOx",
+    "NH3",
+    "CO",
+    "SO2",
+    "O3",
+    "Benzene",
+    "Toluene",
+    "Xylene"
+  ],
+  "categorical_features": [
+    "City",
+    "AQI_Bucket"
+  ],
+  "dataset_file": "city_day.csv"
+}
